@@ -1,13 +1,25 @@
 fun main(args: Array<String>) {
 
-    var nomAldeanos = arrayListOf<String>("Juan","Jaime","Francisco")
+    val nomAldeanosEsp = arrayListOf("Juan", "Angel")
+    val nomAldeanosBiz = arrayListOf("Pepe", "Ana")
 
-    var default_mina = Mina()
-    var default_aldeano = Aldeano()
+    var default_mina = Mina() // Creamos una mina por defecto
 
-    for (i in 0 until default_mina.aldeanos.size) {
+    /*var default_aldeano_esp = Aldeano("Isabel", "Español")
+    var default_aldeano_biz = Aldeano("Constantino", "Bizantino")*/
 
+    val probabilidad: Int = (0..100).random()
+
+
+    if (probabilidad < 40) {
+        default_mina.crearAldeano(nomAldeanosBiz)
+    } else {
+        default_mina.crearAldeano(nomAldeanosEsp) // Se crea un aldeano con nombre random
     }
 
+}
 
+fun curaBizantino(): Boolean {
+
+    return false
 }

@@ -1,3 +1,5 @@
+import kotlin.random.Random
+
 class Mina {
     var tipo: String = ""
     var cantera: Int = 0
@@ -10,15 +12,13 @@ class Mina {
 
 
     // FUNCIONES -------------------------------------------------------------------
-    fun addAldeano() {
-        for (i in 0 until aldeanos.size) {
-            aldeanos.add(Aldeano()) // Se van añadiendo objetos aldeano
-        }
-    }
+   fun crearAldeano(nombre : ArrayList<String>) {
+       for (i in 0 until aldeanos.size) {
+           val nomRandom = nombre[Random.nextInt(nombre.size)]
+           aldeanos.add(Aldeano(nomRandom))
+           nombre.remove(nomRandom)
+       }
 
-    fun quitarAldeano() {
-        for (i in 0 until aldeanos.size) {
-            aldeanos.remove(Aldeano())
-        }
-    }
+   }
+
 }
