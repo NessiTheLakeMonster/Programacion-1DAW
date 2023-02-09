@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
     var default_aldeano = Aldeano()
 
     for (i in 0 until default_mina.aldeanos.size) {
-        
+
     }
 
 
