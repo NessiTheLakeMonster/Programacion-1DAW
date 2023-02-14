@@ -1,4 +1,6 @@
-class Gatos: serVivo, Animal {
+class Gato: serVivo, Animal {
+    var nombre: String = "sin nombre"
+
     override fun crecer() {
         TODO("Not yet implemented")
     }
@@ -15,5 +17,9 @@ class Gatos: serVivo, Animal {
 
     override fun estaVivo(valor: Int): Boolean {
         return vivo
+    }
+
+    override fun toString(): String {
+        return nombre
     }
 }
