@@ -1,4 +1,4 @@
-// Ejercicio de examen de las naves
+// Ejercicio Naves
 
 fun main(args: Array<String>) {
 
