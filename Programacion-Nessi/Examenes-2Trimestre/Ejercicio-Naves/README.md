@@ -22,7 +22,7 @@ El Tet también generará órdenes a sus cuadrantes. Estas órdenes tendrán una
   * **_Si es de Reparación:_** accederá al dron correspondiente de su sector y lo pondrá: al 50%, a operativo (true) o a fallido. En caso de ser fallido ese dron se remplazará por otro dron que se le solicitará al Tet. Si el Tet no tiene más drones se quedará ese dron sin asignar.
   * **_Si es de Observación:_** en la descripción del área observada se pondrá uno de estos tres valores: vegetal, animal o radiación; al azar.
   * **_Una vez cumplida la orden, sea cual sea, se etiquetará como cumplida._** De manera que no se realice dos veces la misma orden en el futuro.
-* Finalmente, todas las órdenes tendrán obligatoriamente un método mostrarInfo que muestre información de cada tipo de orden.
+* Finalmente, todas las órdenes tendrán obligatoriamente un método **_mostrarInfo()_** que muestre información de cada tipo de orden.
 * Tenemos que saber, de alguna manera, **_cuantas órdenes se han cursado en total_**. Sean del tipo que sean y vayan asignadas al cuadrante que sea.
 * Al final de la simulación se debe mostrar toda la información completa de la Tierra: todos los sectores, órdenes recibidas y estado de sus drones.
 
@@ -30,3 +30,7 @@ El Tet también generará órdenes a sus cuadrantes. Estas órdenes tendrán una
 # Notas
 
 ### Clases
+
+Class Tet()
+
+Class Dron()
