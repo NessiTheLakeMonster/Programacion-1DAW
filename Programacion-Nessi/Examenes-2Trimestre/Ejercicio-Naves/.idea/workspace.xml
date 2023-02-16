@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c9f665-1bdd-439b-96a8-46185c3ffe4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Dron.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Tet.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PROGRAMACION_ NESSI/EXAMENES_2TRIMESTRE/Ejercicio-Naves/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PROGRAMACION_CLASE/POO/EjemploInterfaz/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/Reloj-POO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/src/main/kotlin/Reloj.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676567371292</updated>
       <workItem from="1676567372479" duration="60000" />
-      <workItem from="1676567459974" duration="449000" />
+      <workItem from="1676567459974" duration="1371000" />
     </task>
     <servers />
   </component>
