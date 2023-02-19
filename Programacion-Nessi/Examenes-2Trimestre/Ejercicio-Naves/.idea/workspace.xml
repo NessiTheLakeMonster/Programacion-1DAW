@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c9f665-1bdd-439b-96a8-46185c3ffe4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/Reloj-POO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/src/main/kotlin/Reloj.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
