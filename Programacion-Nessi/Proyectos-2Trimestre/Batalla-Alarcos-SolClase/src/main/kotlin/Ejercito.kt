@@ -1,37 +1,40 @@
 import kotlin.random.Random
 
 class Ejercito {
-    var jefe:String = ""
+    var jefe: String = ""
     var batallon = ArrayList<Soldado>()
 
-    constructor(){}
+    constructor() {} // ! Se crea un constructor vacío
 
-    constructor(j:String){
+    constructor(j: String) { // ! Un constructor solo con el nombre del jefe
         jefe = j
     }
 
-    fun crearBatallon(c:Int, n:String) {
+    fun crearBatallon(c: Int, n: String) {
         for (i in 1..c) {
-            var s = Soldado(n +"_" +i)
+            var s = Soldado(n + "_" + i)
             batallon.add(s)
         }
     }
 
-    fun anadirSoldado(s:Soldado){
+    fun anadirSoldado(s: Soldado) {
         batallon.add(s)
     }
-    fun morirSoldado(s:Soldado){
+
+    fun morirSoldado(s: Soldado) {
         batallon.remove(s)
     }
 
-    fun quedanVivos():Boolean{
+    fun quedanVivos(): Boolean {
         return (batallon.size != 0)
     }
-    fun soldadoParaPelear():Soldado{
-           var n = Random.nextInt(0,batallon.size)
-           return batallon[n]
+
+    fun soldadoParaPelear(): Soldado {
+        var n = Random.nextInt(0, batallon.size)
+        return batallon[n]
     }
-    fun cantidadSoldados():Int{
+
+    fun cantidadSoldados(): Int {
         return batallon.size
     }
 }
