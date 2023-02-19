@@ -11,7 +11,7 @@ class Reloj {
         this.segundo = s
     }
 
-    fun cambioFormato() : Int { // Para cambiar a formato 12 horas
+    fun cambioFormato() : Int { // ! Para cambiar a formato 12 horas
         if (hora > 12) {
             hora -= 12
         }

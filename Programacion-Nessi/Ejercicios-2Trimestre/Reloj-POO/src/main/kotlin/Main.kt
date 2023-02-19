@@ -1,4 +1,4 @@
-// Ejercicio 1 del Tema 4 --> Programacion orientada a objetos
+// * Ejercicio 1 del Tema 4 --> Programacion orientada a objetos
 
 import kotlin.concurrent.thread
 
@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
         tiempo.hora = tiempo.cambioFormato()
     }
 
-    Thread.sleep(100) // Esto sirve para que el tiempo vaya pasando
+    Thread.sleep(100) // ! Esto sirve para que el tiempo vaya pasando
 
 
 }

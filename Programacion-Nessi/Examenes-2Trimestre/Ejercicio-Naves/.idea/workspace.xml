@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="77c9f665-1bdd-439b-96a8-46185c3ffe4c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/src/main/kotlin/Reloj.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Reloj-POO/src/main/kotlin/Reloj.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +37,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.better-comments&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -45,6 +55,8 @@
       <updated>1676567371292</updated>
       <workItem from="1676567372479" duration="60000" />
       <workItem from="1676567459974" duration="1371000" />
+      <workItem from="1676820058956" duration="1045000" />
+      <workItem from="1676823547285" duration="595000" />
     </task>
     <servers />
   </component>
