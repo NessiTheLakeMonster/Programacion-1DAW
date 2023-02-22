@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77c9f665-1bdd-439b-96a8-46185c3ffe4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Programacion-Clase/Conexion-BBDD/Supermercado-Ejemplo-BBDD/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Programacion-Clase/Conexion-BBDD/Supermercado-Ejemplo-BBDD/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Programacion-Clase/Conexion-BBDD/Supermercado-Ejemplo-BBDD/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Programacion-Clase/Conexion-BBDD/Supermercado-Ejemplo-BBDD/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Programacion-Clase/Conexion-BBDD/Supermercado-Ejemplo-BBDD/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Programacion-Clase/Conexion-BBDD/Supermercado-Ejemplo-BBDD/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Cuadrante.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programacion-Clase/Conexion-BBDD/Supermercado-Ejemplo-BBDD/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programacion-Clase/Conexion-BBDD/Supermercado-Ejemplo-BBDD/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Dron.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Dron.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +60,7 @@
       <workItem from="1676830073214" duration="182000" />
       <workItem from="1676830271796" duration="593000" />
       <workItem from="1676998740643" duration="4531000" />
-      <workItem from="1677066045835" duration="1747000" />
+      <workItem from="1677066045835" duration="1887000" />
     </task>
     <servers />
   </component>

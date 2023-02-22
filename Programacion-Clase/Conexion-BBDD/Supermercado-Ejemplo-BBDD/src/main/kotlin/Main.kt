@@ -1,3 +1,5 @@
+// * EJERCICIO DE EJEMPLO DE CONEXIÓN CON BASES DE DATOS
+
 import java.sql.*
 
 fun main(args: Array<String>) {
@@ -38,10 +40,10 @@ fun main(args: Array<String>) {
         preparedStatement.setInt(1, 5) //Cada vez que lo ejecutes cambia el número, para no producir error
         preparedStatement.setString(2, "Alimentos")
 
-// Ejecutamos la sentencia preparada para insertar los datos en la tabla
+        // Ejecutamos la sentencia preparada para insertar los datos en la tabla
         preparedStatement.executeUpdate()
 
-// Finalmente, cerramos la conexión a la base de datos y la sentencia preparada
+        // Finalmente, cerramos la conexión a la base de datos y la sentencia preparada
 
 
     } catch (ex: SQLException) {
