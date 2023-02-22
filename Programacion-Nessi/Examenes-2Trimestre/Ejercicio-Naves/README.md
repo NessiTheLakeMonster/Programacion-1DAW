@@ -12,7 +12,7 @@ Cada Dron tendrá un número de Dron (único) y si está operativo o no (por def
 
 El Tet también generará órdenes a sus cuadrantes. Estas órdenes tendrán una fecha, un campo que indique si se ha completado y un cuadrante de destino (fila y columna), asimismo pueden ser de reparación (indicando el nº de dron y el estado del mismo antes de ser reparado y después) o de reconocimiento (indicando el área a reconocer – un nº entre 1 y 20 y un campo que indique que se ha encontrado en ese área: animales, vegetales o radiación).
 
-### Algoritmo:
+## Algoritmo:
 
 * El **_Tet se rellena inicialmente_** con 200 drones, su número de identificación es único y su estado es operativo.
 * Se rellenan los **_cuadrantes del planeta_**, asignando los drones del Tet (se sacan de él) y asignando un mecánico y una supervisora. El nombre de los mismos se ajustará a lo explicado anteriormente.
