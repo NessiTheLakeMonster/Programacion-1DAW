@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77c9f665-1bdd-439b-96a8-46185c3ffe4c" name="Changes" comment="" />
+    <list default="true" id="77c9f665-1bdd-439b-96a8-46185c3ffe4c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Cuadrante.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Cuadrante.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Dron.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Dron.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tet.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +65,7 @@
       <workItem from="1676830271796" duration="593000" />
       <workItem from="1676998740643" duration="4531000" />
       <workItem from="1677066045835" duration="5876000" />
-      <workItem from="1677144545719" duration="791000" />
+      <workItem from="1677144545719" duration="3140000" />
     </task>
     <servers />
   </component>
