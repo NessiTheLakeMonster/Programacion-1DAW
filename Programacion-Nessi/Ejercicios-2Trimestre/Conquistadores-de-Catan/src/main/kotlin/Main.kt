@@ -1,3 +1,5 @@
+// EJERCICIO DE LOS CONQUISTADORES DE CATÁN
+
 import kotlin.random.Random
 import java.util.Scanner
 
@@ -39,7 +41,6 @@ fun main(args: Array<String>) {
             main_tablero.colocarCasillaPC(fila,columna)
 
         }while (!main_tablero.colocarCasillaPC(fila,columna))
-
 
         i++
 

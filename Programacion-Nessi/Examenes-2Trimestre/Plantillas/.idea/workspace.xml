@@ -5,47 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a7e3f19-10eb-4ab9-bbfc-59ec49511c49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Coche-POO/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Coche-POO/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Coche-POO/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Coche-POO/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Coche-POO/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Coche-POO/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Coche-POO/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Coche-POO/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Coche-POO/Coche-POO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Coche-POO/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Coche-POO/src/main/kotlin/Coche.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Coche-POO/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/Conquistadores-de-Catan.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/src/main/kotlin/Casilla.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/src/main/kotlin/Jugador.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/src/main/kotlin/Tablero.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plantillas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Plantillas/Circulo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Plantillas/Forma.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Plantillas/META-INF/Plantillas.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Plantillas/MainKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Circulo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Forma.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio-Naves/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-Naves/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Coche-POO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Coche-POO/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/src/main/kotlin/Tablero.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/src/main/kotlin/Tablero.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

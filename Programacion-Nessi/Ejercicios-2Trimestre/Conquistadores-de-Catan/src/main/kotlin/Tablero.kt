@@ -1,13 +1,13 @@
 class Tablero {
-    var t = Array(3) { arrayOfNulls<Casilla>(4) }
+    var t = Array(3) { arrayOfNulls<Casilla>(4) } // otra opcion pero no se usarla bien xd
 
     var t2 = ArrayList<ArrayList<Casilla>>()
+
     init {
         for (i in 0 until 3) {
             t2.add(ArrayList())
         }
     }
-
 
     fun crearTablero() {
         for (i in 0 until t.size) {
@@ -27,8 +27,7 @@ class Tablero {
         }
     }
 
-
-    fun colocarCasillaHumano(x: Int, y: Int) : Boolean {
+    fun colocarCasillaHumano(x: Int, y: Int): Boolean {
         if (t2[x][y].duenio.idJugador == 0) {
             t2[x][y].duenio.idJugador = 1
             return true
@@ -38,7 +37,7 @@ class Tablero {
         }
     }
 
-    fun colocarCasillaPC(x: Int, y: Int) : Boolean {
+    fun colocarCasillaPC(x: Int, y: Int): Boolean {
         if (t2[x][y].duenio.idJugador == 0) {
             t2[x][y].duenio.idJugador = 2
             return true
