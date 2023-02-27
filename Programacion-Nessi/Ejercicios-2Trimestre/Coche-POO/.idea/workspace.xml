@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28e25398-7557-4be8-8a28-c4b4e9a106f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coche-POO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Coche.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conquistadores-de-Catan/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conquistadores-de-Catan/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conquistadores-de-Catan/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conquistadores-de-Catan/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conquistadores-de-Catan/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conquistadores-de-Catan/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conquistadores-de-Catan/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conquistadores-de-Catan/Conquistadores-de-Catan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conquistadores-de-Catan/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conquistadores-de-Catan/src/main/kotlin/Casilla.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conquistadores-de-Catan/src/main/kotlin/Jugador.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conquistadores-de-Catan/src/main/kotlin/Tablero.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Plantillas/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Plantillas/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Plantillas/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Plantillas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Plantillas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Plantillas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Plantillas/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Plantillas/Plantillas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Plantillas/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Plantillas/out/production/Plantillas/Circulo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Plantillas/out/production/Plantillas/Forma.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Plantillas/out/production/Plantillas/META-INF/Plantillas.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Plantillas/out/production/Plantillas/MainKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Plantillas/src/main/kotlin/Circulo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Plantillas/src/main/kotlin/Forma.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Plantillas/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examenes-2Trimestre/Ejercicio-Naves/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examenes-2Trimestre/Ejercicio-Naves/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MKVWzU5TqnGQ8Nx8zazWrHWCZ4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Github/Programacion-DAW/Programacion-Nessi/Ejercicios-2Trimestre/Coche-POO/src/main/kotlin",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Github\Programacion-DAW\Programacion-Nessi\Ejercicios-2Trimestre\Coche-POO\src\main\kotlin" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28e25398-7557-4be8-8a28-c4b4e9a106f5" name="Changes" comment="" />
+      <created>1677516298638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677516298638</updated>
+      <workItem from="1677516299907" duration="716000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

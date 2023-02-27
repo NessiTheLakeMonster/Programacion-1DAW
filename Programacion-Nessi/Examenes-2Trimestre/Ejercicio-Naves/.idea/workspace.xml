@@ -5,11 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77c9f665-1bdd-439b-96a8-46185c3ffe4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/Conquistadores-de-Catan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/src/main/kotlin/Casilla.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/src/main/kotlin/Jugador.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicios-2Trimestre/Conquistadores-de-Catan/src/main/kotlin/Tablero.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plantillas/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plantillas/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plantillas/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plantillas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plantillas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plantillas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plantillas/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plantillas/Plantillas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plantillas/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plantillas/out/production/Plantillas/Circulo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plantillas/out/production/Plantillas/Forma.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plantillas/out/production/Plantillas/META-INF/Plantillas.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plantillas/out/production/Plantillas/MainKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plantillas/src/main/kotlin/Circulo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plantillas/src/main/kotlin/Forma.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Plantillas/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Cuadrante.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Cuadrante.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Dron.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Dron.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tet.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +58,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Github/Programacion-DAW/Programacion-Nessi/Proyectos-2Trimestre/Age-of-empires",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.better-comments",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Github/Programacion-DAW/Programacion-Nessi/Proyectos-2Trimestre/Age-of-empires&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.better-comments&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,6 +90,9 @@
       <workItem from="1676998740643" duration="4531000" />
       <workItem from="1677066045835" duration="5876000" />
       <workItem from="1677144545719" duration="3140000" />
+      <workItem from="1677237568417" duration="15000" />
+      <workItem from="1677237605576" duration="863000" />
+      <workItem from="1677504307013" duration="297000" />
     </task>
     <servers />
   </component>
