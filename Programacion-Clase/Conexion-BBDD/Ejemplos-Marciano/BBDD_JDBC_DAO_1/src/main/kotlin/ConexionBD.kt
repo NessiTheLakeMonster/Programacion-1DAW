@@ -1,7 +1,7 @@
 import java.sql.*
 
 class ConexionBD {
-    val url = "jdbc:mysql://localhost/supermercadoSimple"
+    val url = "jdbc:mysql://localhost/supermercadosimple"
     val user = "root"
     val password = ""
     var conn: Connection? = null
