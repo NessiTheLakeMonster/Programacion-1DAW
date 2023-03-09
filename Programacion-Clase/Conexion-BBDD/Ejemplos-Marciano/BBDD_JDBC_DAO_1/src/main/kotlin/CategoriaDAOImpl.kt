@@ -97,19 +97,24 @@ class CategoriaDAOImpl : CategoriaDAO {
         return result == 1
     }
 
-    override fun insertarLista(categoria: Categoria, lisCat: ArrayList<Categoria>): Boolean {
+    override fun insertarLista(c: ArrayList<Categoria>): ArrayList<Categoria> {
         var result: Int? = null
         var ps: PreparedStatement? = null
+        val listaNoInsertados = ArrayList<Categoria>()
 
         try {
             conexion.conectar()
-            val query = "INSERT INTO categorias VALUES (?,?)"
+            val query = "INSERT INTO categorias (cod_grupo, descripcion) VALUES (?,?)"
 
-            for (i in 0 until lisCat.size) {
-                ps = conexion.getPreparedStatement(query)
-                ps?.setInt(i, categoria.codigo)
-
-                result = ps?.executeUpdate()
+            for (i in c) {
+                try {
+                    ps = conexion.getPreparedStatement(query)
+                    ps?.setString(1, i.descripcion)
+                    ps?.setInt(2, i.codigo)
+                    result = ps?.executeUpdate()
+                } catch (e: Exception) {
+                    listaNoInsertados.add(i)
+                }
             }
 
         } catch (e: SQLException) {
@@ -119,6 +124,6 @@ class CategoriaDAOImpl : CategoriaDAO {
             conexion.desconectar()
         }
 
-        return  result == 1
+        return listaNoInsertados
     }
 }

@@ -4,5 +4,5 @@ interface CategoriaDAO {
     fun insertCategoria(categoria: Categoria): Boolean
     fun updateCategoria(categoria: Categoria): Boolean
     fun deleteCategoria(codigo: Int): Boolean
-    fun insertarLista(categoria: Categoria, lisCat: ArrayList<Categoria>) : Boolean
+    fun insertarLista(c: ArrayList<Categoria>) : ArrayList<Categoria>
 }

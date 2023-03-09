@@ -1,6 +1,23 @@
 fun main() {
     val categoriaDAO = CategoriaDAOImpl()
 
+    var c = ArrayList<Categoria>()
+
+    for (i in 1..9) {
+        val cat = Categoria(i, "info" + i)
+        c.add(cat)
+    }
+
+    var cat = Categoria(90, "Naranjas")
+    c.add(cat)
+
+    var aux = categoriaDAO.insertarLista(c) //! Se guarda en un arraylist distinto
+
+    for (i in aux) {
+        println(i) //! Bc la clase categoria ya tiene in toString()
+    }
+
+    /*
     // Obtener todas las categorias
     val categorias = categoriaDAO.getAllCategorias()
     println("Lista de categorias:")
@@ -43,4 +60,6 @@ fun main() {
     } else {
         println("No se pudo eliminar la categoria con codigo $codigoAEliminar")
     }
+
+     */
 }
