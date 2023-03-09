@@ -4,9 +4,12 @@ fun main() {
     // Obtener todas las categorias
     val categorias = categoriaDAO.getAllCategorias()
     println("Lista de categorias:")
-    categorias.forEach { println(it) }
+    //! categorias.forEach { println(it) } función lambda (no se ve aún)
+    for (categoria in categorias) {
+        println(categoria)
+    }
 
-    // Obtener una categoria por codigo
+    // Obtener una categoría por código
     val codigo = 1
     val categoria = categoriaDAO.getCategoriaByCodigo(codigo)
     if (categoria != null) {
