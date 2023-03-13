@@ -1,5 +1,7 @@
 fun main() {
     val categoriaDAO = CategoriaDAOImpl()
+    val empleadoDAO = EmpleadoDAOImpl()
+    val productoDAO = ProductoDAOImpl()
 
     var c = ArrayList<Categoria>()
 
@@ -62,4 +64,34 @@ fun main() {
     }
 
      */
+
+    // * EMPLEADOS ------------------------------------------------------------------
+
+    //! Insertar un nuevo empleado
+    val newEmpleado = Empleado(2222,"Isabel", 2)
+    if (empleadoDAO.insertEmpleado(newEmpleado)) {
+        println("Se inserto correctamente el empleado $newEmpleado")
+    } else {
+        println("No se pudo insertar el empleado $newEmpleado")
+    }
+
+    //! Actualizar un empleado existente
+    val empleadoExistente = Empleado(1111, "Angel",1)
+    if (empleadoDAO.updateEmpleado(empleadoExistente)) {
+        println("Se actualizó correctamente el empleado $empleadoExistente")
+    } else {
+        println("No se pudo actualizar correctamente el empleado $empleadoExistente")
+    }
+
+    /*
+    //! Eliminar empleado por clave aka dni
+    val dni_Eliminar = 2222
+    if (empleadoDAO.deleteEmpleado(dni_Eliminar)) {
+        println("Se elimino correctamente el empleado con DNI $dni_Eliminar")
+    } else {
+        println("No se pudo eliminar correctamente el empleado con DNI $dni_Eliminar")
+    }
+     */
+
+    // * PRODUCTOS -----------------------------------------------------------------
 }
