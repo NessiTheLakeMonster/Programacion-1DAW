@@ -2,6 +2,7 @@ fun main() {
     val categoriaDAO = CategoriaDAOImpl()
     val empleadoDAO = EmpleadoDAOImpl()
     val productoDAO = ProductoDAOImpl()
+    val catProdDAO = CategoriaProductosDAOImpl()
 
     var c = ArrayList<Categoria>()
 
@@ -67,7 +68,7 @@ fun main() {
 
     // * EMPLEADOS ------------------------------------------------------------------
 
-    //! Insertar un nuevo empleado
+   /* //! Insertar un nuevo empleado
     val newEmpleado = Empleado(2222,"Isabel", 2)
     if (empleadoDAO.insertEmpleado(newEmpleado)) {
         println("Se inserto correctamente el empleado $newEmpleado")
@@ -83,6 +84,8 @@ fun main() {
         println("No se pudo actualizar correctamente el empleado $empleadoExistente")
     }
 
+    */
+
     /*
     //! Eliminar empleado por clave aka dni
     val dni_Eliminar = 2222
@@ -94,4 +97,19 @@ fun main() {
      */
 
     // * PRODUCTOS -----------------------------------------------------------------
+
+    // * CATEGORÍA & PRODUCTOS -----------------------------------------------------
+
+    val cp = catProdDAO.getCategoriaProducto(3)
+    for (i in cp) {
+        println(i)
+    }
+
+    val d = catProdDAO.getCategoriaProducto()
+    for (i in d) {
+        println(i)
+    }
+
+
+
 }
