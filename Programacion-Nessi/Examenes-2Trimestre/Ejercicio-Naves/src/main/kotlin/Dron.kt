@@ -1,6 +1,7 @@
 import kotlin.random.Random
 
 class Dron {
+
     var num_id: String = ""
     var estado_operativo: Boolean = Random.nextBoolean() // ! guardalo Random.nextBoolean()
 
