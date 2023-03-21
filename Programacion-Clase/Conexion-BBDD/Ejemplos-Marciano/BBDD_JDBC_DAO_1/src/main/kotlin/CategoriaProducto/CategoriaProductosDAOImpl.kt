@@ -1,3 +1,7 @@
+package CategoriaProducto
+
+import Categoria.Categoria
+import ConexionBD
 import java.sql.*
 
 class CategoriaProductosDAOImpl : CategoriaProductoDAO {

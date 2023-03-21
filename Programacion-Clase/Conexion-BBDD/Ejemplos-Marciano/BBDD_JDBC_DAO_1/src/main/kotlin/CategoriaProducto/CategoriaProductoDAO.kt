@@ -1,3 +1,8 @@
+package CategoriaProducto
+
+import Categoria.Categoria
+import CategoriaProducto.CategoriaProducto
+
 interface CategoriaProductoDAO {
     fun deleteCascadeCP(c: Categoria) : Boolean
     fun deleteCascadeCP(cod: Int) : Boolean

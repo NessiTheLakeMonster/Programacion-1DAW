@@ -1,3 +1,5 @@
+package CategoriaProducto
+
 class CategoriaProducto {
 
     var codigoProd: Int = 0
@@ -17,7 +19,7 @@ class CategoriaProducto {
     }
 
     override fun toString(): String {
-        return "CategoriaProducto(codigoProd=$codigoProd, codigoCat=$codigoCat, descripcion='$descripcion', nombre='$nombre', cantidad=$cantidad, precio=$precio)"
+        return "CategoriaProducto.CategoriaProducto(codigoProd=$codigoProd, codigoCat=$codigoCat, descripcion='$descripcion', nombre='$nombre', cantidad=$cantidad, precio=$precio)"
     }
 
 }

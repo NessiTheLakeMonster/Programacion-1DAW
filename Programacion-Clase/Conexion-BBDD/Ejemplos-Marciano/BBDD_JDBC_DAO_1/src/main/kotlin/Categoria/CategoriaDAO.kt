@@ -1,3 +1,7 @@
+package Categoria
+
+import Categoria.Categoria
+
 interface CategoriaDAO {
     fun getCategoriaByCodigo(codigo: Int): Categoria?
     fun getAllCategorias(): List<Categoria>

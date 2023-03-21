@@ -1,20 +1,25 @@
+package Producto
+
+import ConexionBD
 import java.sql.PreparedStatement
 import java.sql.SQLException
 
-class EmpleadoDAOImpl : EmpleadoDAO {
+class ProductoDAOImpl : ProductoDAO {
     private val conexion = ConexionBD()
 
-    override fun insertEmpleado(empleado: Empleado): Boolean {
+    override fun insertProducto(producto: Producto): Boolean {
         var result: Int? = null
         var ps: PreparedStatement? = null
 
         try {
             conexion.conectar()
-            val query = "INSERT INTO empleados (DNI,nombre,puesto) VALUES (?,?,?)"
+            val query = "INSERT INTO empleados (cod_prod,cod_cat,nombre,cant,precio) VALUES (?,?,?,?,?)"
             ps = conexion.getPreparedStatement(query)
-            ps?.setInt(1, empleado.DNI)
-            ps?.setString(2, empleado.nombre)
-            ps?.setInt(3, empleado.puesto)
+            ps?.setInt(1, producto.cod_prod)
+            ps?.setInt(2, producto.cod_cat)
+            ps?.setString(3, producto.nombre)
+            ps?.setInt(4, producto.cant)
+            ps?.setInt(5, producto.precio)
             result = ps?.executeUpdate()
         } catch (e: SQLException) {
             println("Error, " + e.message)
@@ -26,17 +31,19 @@ class EmpleadoDAOImpl : EmpleadoDAO {
         return result == 1
     }
 
-    override fun updateEmpleado(empleado: Empleado): Boolean {
+    override fun updateProducto(producto: Producto): Boolean {
         var result: Int? = null
         var ps: PreparedStatement? = null
 
         try {
             conexion.conectar()
-            val query = "UPDATE empleados SET nombre = ?, puesto = ? WHERE DNI = ?"
+            val query = "UPDATE empleados SET cod_cat = ?, nombre = ?, cant = ?, precio = ? WHERE cod_prod = ?"
             ps = conexion.getPreparedStatement(query)
-            ps?.setString(1, empleado.nombre)
-            ps?.setInt(2, empleado.puesto)
-            ps?.setInt(3, empleado.DNI)
+            ps?.setInt(1, producto.cod_cat)
+            ps?.setString(2, producto.nombre)
+            ps?.setInt(3, producto.cant)
+            ps?.setInt(4, producto.precio)
+            ps?.setInt(5, producto.cod_prod)
             result = ps?.executeUpdate()
         } catch (e: SQLException) {
             println("Error, " + e.message)
@@ -48,15 +55,15 @@ class EmpleadoDAOImpl : EmpleadoDAO {
         return result == 1
     }
 
-    override fun deleteEmpleado(DNI: Int): Boolean {
+    override fun deleteProducto(cod_prod: Int): Boolean {
         var result: Int? = null
         var ps: PreparedStatement? = null
 
         try {
             conexion.conectar()
-            val query = "DELETE FROM empleados WHERE DNI = ?"
+            val query = "DELETE FROM productos WHERE cod_prod = ?"
             ps = conexion.getPreparedStatement(query)
-            ps?.setInt(1, DNI)
+            ps?.setInt(1, cod_prod)
             result = ps?.executeUpdate()
         } catch (e: SQLException) {
             println("Error, " + e.message)

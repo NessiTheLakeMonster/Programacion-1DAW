@@ -1,3 +1,9 @@
+import Categoria.Categoria
+import Categoria.CategoriaDAOImpl
+import CategoriaProducto.CategoriaProductosDAOImpl
+import Empleado.EmpleadoDAOImpl
+import Producto.ProductoDAOImpl
+
 fun main() {
     val categoriaDAO = CategoriaDAOImpl()
     val empleadoDAO = EmpleadoDAOImpl()
@@ -33,7 +39,7 @@ fun main() {
     val codigo = 1
     val categoria = categoriaDAO.getCategoriaByCodigo(codigo)
     if (categoria != null) {
-        println("Categoria con codigo $codigo:")
+        println("Categoria.Categoria con codigo $codigo:")
         println(categoria)
     } else {
         println("No se encontró la categoria con codigo $codigo")
@@ -41,7 +47,7 @@ fun main() {
 
 
     // Insertar una nueva categoria
-    val nuevaCategoria = Categoria(6, "Frutas")
+    val nuevaCategoria = Categoria.Categoria(6, "Frutas")
     if (categoriaDAO.insertCategoria(nuevaCategoria)) {
         println("Se insertó correctamente la categoria $nuevaCategoria")
     } else {
@@ -49,7 +55,7 @@ fun main() {
     }
 
     // Actualizar una categoria existente
-    val categoriaExistente = Categoria(1, "Hogar y electrodomésticos")
+    val categoriaExistente = Categoria.Categoria(1, "Hogar y electrodomésticos")
     if (categoriaDAO.updateCategoria(categoriaExistente)) {
         println("Se actualizó correctamente la categoria $categoriaExistente")
     } else {
@@ -69,7 +75,7 @@ fun main() {
     // * EMPLEADOS ------------------------------------------------------------------
 
    /* //! Insertar un nuevo empleado
-    val newEmpleado = Empleado(2222,"Isabel", 2)
+    val newEmpleado = Empleado.Empleado(2222,"Isabel", 2)
     if (empleadoDAO.insertEmpleado(newEmpleado)) {
         println("Se inserto correctamente el empleado $newEmpleado")
     } else {
@@ -77,7 +83,7 @@ fun main() {
     }
 
     //! Actualizar un empleado existente
-    val empleadoExistente = Empleado(1111, "Angel",1)
+    val empleadoExistente = Empleado.Empleado(1111, "Angel",1)
     if (empleadoDAO.updateEmpleado(empleadoExistente)) {
         println("Se actualizó correctamente el empleado $empleadoExistente")
     } else {

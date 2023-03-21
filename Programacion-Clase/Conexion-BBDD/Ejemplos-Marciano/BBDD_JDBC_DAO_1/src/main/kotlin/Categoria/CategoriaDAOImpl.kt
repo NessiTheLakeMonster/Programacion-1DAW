@@ -1,3 +1,6 @@
+package Categoria
+
+import ConexionBD
 import java.sql.*
 
 class CategoriaDAOImpl : CategoriaDAO {
@@ -24,7 +27,7 @@ class CategoriaDAOImpl : CategoriaDAO {
         val query = "SELECT * FROM categorias"
         val st = conexion.getStatement()
         val rs = st?.executeQuery(query)
-        // ! val categorias = mutableListOf<Categoria>() funciona igual que el ArrayList
+        // ! val categorias = mutableListOf<Categoria.Categoria>() funciona igual que el ArrayList
         val categorias = ArrayList<Categoria>()
         while (rs?.next() == true) {
             val categoria = Categoria(rs.getInt("cod_grupo"), rs.getString("descripcion"))
