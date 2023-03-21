@@ -49,7 +49,7 @@ class CategoriaProductosDAOImpl : CategoriaProductoDAO {
         val prod = ArrayList<CategoriaProducto>()
 
         try {
-            val query = "SELECT * FROM producto JOIN categoria" +
+            val query = "SELECT * FROM producto JOIN categoria" + //! esta mal, miralo
                     "ON producto.cod_cat = categoria.cod_grupo" +
                     "WHERE producto.cod_cat = ?"
             ps = conexion.getPreparedStatement(query)
