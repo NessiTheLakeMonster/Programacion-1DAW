@@ -5,8 +5,8 @@ fun main(args: Array<String>) {
     val AutoresFichero= AutoresFichero()
 
 
-    /* Ejemplo de sacar de bb a fichero
-    var c = AutoresDAO.todosLosAutores()
+    // Ejemplo de sacar de bb a fichero
+    val c = AutoresDAO.todosLosAutores()
     AutoresFichero.insertar(c,Constantes.ficheroAutores,true)
     println("Control por la salida Estandar")
     for (i in c!!) {
@@ -15,8 +15,8 @@ fun main(args: Array<String>) {
 
 
 
-     */
+
     //ejemplo de insertar de fichero a bbdd
-    AutoresDAO.insertarLista(AutoresFichero.recuperar(Constantes.ficheroAutores))
+    //AutoresDAO.insertarLista(AutoresFichero.recuperar(Constantes.ficheroAutores))
 
 }
