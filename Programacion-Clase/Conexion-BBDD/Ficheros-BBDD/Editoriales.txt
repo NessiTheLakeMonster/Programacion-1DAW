@@ -1,0 +1,2 @@
+Editorial(id=1, nombre='Planeta', fundacion='1945-07-21')
+Editorial(id=2, nombre='Anagrama', fundacion='1969-01-01')

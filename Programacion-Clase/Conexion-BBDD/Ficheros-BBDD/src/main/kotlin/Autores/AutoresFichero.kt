@@ -9,7 +9,7 @@ class AutoresFichero {
     fun insertar(lista:List<Autores>,no:String, ti:Boolean){
         var pw = FileWriter(no, ti)
         var copiar = PrintWriter(pw)
-        for (i in lista!!) {
+        for (i in lista!!) { // !! puedes encontrarte un nulo
             copiar?.println(i)
         }
         copiar?.flush()
