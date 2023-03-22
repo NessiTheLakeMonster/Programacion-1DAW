@@ -28,7 +28,7 @@ class CategoriaProductosDAOImpl : CategoriaProductoDAO {
     }
 
     override fun deleteCascadeCP(cod: Int): Boolean {
-        var result: Int? = null
+        val result: Int? = null
         var ps: PreparedStatement? = null
 
         try {
