@@ -1,5 +1,6 @@
 import Autores.*
 import Editorial.*
+import Libro.*
 
 fun main(args: Array<String>) {
     val AutoresDAO = AutoresDAOImpl()

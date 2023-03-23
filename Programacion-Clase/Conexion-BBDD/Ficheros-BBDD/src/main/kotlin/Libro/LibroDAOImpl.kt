@@ -1,0 +1,4 @@
+package Libro
+
+class LibroDAOImpl {
+}

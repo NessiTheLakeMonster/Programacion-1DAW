@@ -1,0 +1,4 @@
+package Libro
+
+interface LibroDAO {
+}

@@ -19,7 +19,7 @@ class CategoriaProducto {
     }
 
     override fun toString(): String {
-        return "CategoriaProducto.CategoriaProducto(codigoProd=$codigoProd, codigoCat=$codigoCat, descripcion='$descripcion', nombre='$nombre', cantidad=$cantidad, precio=$precio)"
+        return "CategoriaProducto(codigoProd=$codigoProd, codigoCat=$codigoCat, descripcion='$descripcion', nombre='$nombre', cantidad=$cantidad, precio=$precio)"
     }
 
 }
