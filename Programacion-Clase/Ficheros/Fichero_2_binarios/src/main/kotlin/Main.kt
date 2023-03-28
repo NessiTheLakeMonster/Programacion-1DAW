@@ -22,6 +22,7 @@ fun main() {
         println(e.message)
     } finally {
         try {
+            salida?.flush()
             fos?.close()
             salida?.close()
         } catch (e: IOException) {
