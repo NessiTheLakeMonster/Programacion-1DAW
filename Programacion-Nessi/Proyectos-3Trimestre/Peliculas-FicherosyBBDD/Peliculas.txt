@@ -1,0 +1,7 @@
+Pelicula(titulo='ola', director='ola', duracion=2, year='2006')
+Pelicula(titulo='er', director='er', duracion=4, year='2008')
+Pelicula(titulo='u', director='u', duracion=2, year='2005')
+Pelicula(titulo='ola', director='ola', duracion=3, year='2001')
+Pelicula (titulo='o', director='l', duracion=12, año='2008')
+Pelicula (titulo='we', director='we', duracion=2005, año='12')
+Pelicula (titulo='star wars', director='p', duracion=45, año='2004')

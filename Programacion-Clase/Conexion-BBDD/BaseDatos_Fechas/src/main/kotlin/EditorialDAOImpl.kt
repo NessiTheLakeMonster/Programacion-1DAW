@@ -1,8 +1,8 @@
 import java.sql.PreparedStatement
 
-class EditorialDAOImpl:EditorialDAO {
+class EditorialDAOImpl : EditorialDAO {
     private val conexion = ConexionBD()
-    override fun todosLasEditoriales(): List<Editorial>{
+    override fun todosLasEditoriales(): List<Editorial> {
         conexion.conectar()
         val query = "SELECT * FROM EDITORIALES"
         val st = conexion.getStatement()
@@ -16,15 +16,16 @@ class EditorialDAOImpl:EditorialDAO {
         conexion.desconectar()
         return editoriales
     }
-    override  fun insertarEditorial(c:Editorial):Int{
+
+    override fun insertarEditorial(c: Editorial): Int {
         conexion.conectar()
-        var result:Int?=null
+        var result: Int? = null
         var ps: PreparedStatement? = null
-        var correcto:Int = 1
+        var correcto: Int = 1
 
         val query = "INSERT INTO editoriales (id,nombre,fundacion) VALUES (?,?,?)"
         ps = conexion.getPreparedStatement(query)
-        try {
+        try { //! Aqui habia un breakpoint
             ps?.setInt(1, c.id)
             ps?.setString(2, c.nombre)
             //explicación al final
@@ -33,9 +34,9 @@ class EditorialDAOImpl:EditorialDAO {
             ps?.setDate(3, sqlDate)
 
             result = ps?.executeUpdate()
-        }catch (e:Exception){
-                println("no Se puede insertar ${c.id}")
-                correcto = 0
+        } catch (e: Exception) {
+            println("no Se puede insertar ${c.id}")
+            correcto = 0
 
         }
 

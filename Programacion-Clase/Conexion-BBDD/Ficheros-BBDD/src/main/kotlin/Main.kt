@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
 
 
     /*
-    // ! Ejemplo de sacar de bb a fichero
+    // ! Ejemplo de sacar de bbdd a fichero
     val c = AutoresDAO.todosLosAutores()
     AutoresFichero.insertar(c,Constantes.ficheroAutores,true)
     println("Control por la salida Estandar")
