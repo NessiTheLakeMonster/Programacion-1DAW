@@ -1,4 +1,6 @@
-class Pelicula {
+import java.io.Serializable
+
+class Pelicula : Serializable{
     var titulo = ""
     var director = ""
     var duracion = 0

@@ -4,6 +4,7 @@ fun main(args: Array<String>) {
     var a1 = Agenda("Ana", "Martínez", "Fernández");
     var a2 = Agenda("Ernesto", "García", "Pérez");
     var os:ObjectOutputStream?=null
+
     try{
         var fs = FileOutputStream("agenda.ser");//Creamos el archivo
         os = ObjectOutputStream(fs);//Esta clase tiene el método writeObject() que necesitamos
@@ -16,6 +17,7 @@ fun main(args: Array<String>) {
     } finally {
         os?.close();//Hay que cerrar siempre el archivo
     }
+
     try{
         var fis = FileInputStream("agenda.ser");
         var ois = ObjectInputStream(fis);
@@ -29,6 +31,7 @@ fun main(args: Array<String>) {
     }catch(e:ClassNotFoundException){
         e.printStackTrace();
     }
+
     System.out.println(a1);
     System.out.println(a2);
 }

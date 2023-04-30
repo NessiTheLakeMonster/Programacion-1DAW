@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.generadoraleatorios.HelloController">
+    <children>
+        <Label layoutX="85.0" layoutY="76.0" text="Número 1" />
+        <Label layoutX="92.0" layoutY="192.0" text="Número 2" />
+        <Label layoutX="85.0" layoutY="295.0" text="Número generado" />
+        <TitledPane animated="false" layoutX="165.0" layoutY="36.0" prefHeight="97.0" prefWidth="240.0" text="Barra 1">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="122.0" prefWidth="285.0">
+                    <children>
+                        <ProgressBar fx:id="progreso1" layoutX="19.0" layoutY="14.0" prefWidth="200.0" progress="0.0" />
+                        <Button fx:id="btnMenos1" layoutX="19.0" layoutY="36.0" mnemonicParsing="false" onAction="#btnMenosPulsado1" text="-" />
+                        <Button fx:id="btnMas1" layoutX="194.0" layoutY="36.0" mnemonicParsing="false" onAction="#btnMasPulsado1" text="+" />
+                        <Label fx:id="lblProgreso1" layoutX="116.0" layoutY="40.0" text="0" />
+                    </children>
+                </AnchorPane>
+            </content>
+        </TitledPane>
+        <TitledPane animated="false" layoutX="165.0" layoutY="151.0" prefHeight="97.0" prefWidth="240.0" text="Barra 2">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <ProgressBar fx:id="progreso2" layoutX="19.0" layoutY="14.0" prefWidth="200.0" progress="0.0" />
+                        <Button fx:id="btnMenos2" layoutX="19.0" layoutY="36.0" mnemonicParsing="false" onAction="#btnMenosPulsado2" text="-" />
+                        <Button fx:id="btnMas2" layoutX="194.0" layoutY="36.0" mnemonicParsing="false" onAction="#btnMasPulsado2" text="+" />
+                        <Label fx:id="lblProgreso2" layoutX="116.0" layoutY="40.0" text="0" />
+                    </children>
+                </AnchorPane>
+            </content>
+        </TitledPane>
+        <TextField fx:id="txtSolucion" disable="true" layoutX="210.0" layoutY="291.0" />
+      <Button fx:id="btnAleatorio" layoutX="396.0" layoutY="291.0" mnemonicParsing="false" onAction="#generarAleatorio" text="Generar Aleatorio" />
+    </children>
+</Pane>
