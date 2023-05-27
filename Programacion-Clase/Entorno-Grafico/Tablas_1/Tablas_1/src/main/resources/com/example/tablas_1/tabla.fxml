@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tablas_1.TablaController">
+   <children>
+      <TableView fx:id="tablaPersona" layoutX="78.0" layoutY="94.0" prefHeight="200.0" prefWidth="346.0">
+        <columns>
+          <TableColumn fx:id="colNombre" prefWidth="75.0" text="Nombre" />
+          <TableColumn fx:id="colEdad" prefWidth="75.0" text="Edad" />
+            <TableColumn fx:id="colTelefono" prefWidth="75.0" text="Teléfono" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnBorrar" layoutX="85.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnBorrarPulsado" text="Borrar" />
+      <Button fx:id="btnMostrar" layoutX="186.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnMostrarPulsado" text="Mostrar" />
+      <Button fx:id="btnAgregar" layoutX="293.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnAgregarPulsado" text="Agregar" />
+   </children>
+</Pane>

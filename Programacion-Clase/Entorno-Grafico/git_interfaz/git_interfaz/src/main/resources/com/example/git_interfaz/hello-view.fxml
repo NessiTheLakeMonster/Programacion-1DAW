@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="217.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.git_interfaz.InicioController">
+   <children>
+      <Label layoutX="149.0" layoutY="25.0" text="Bienvenido al videoclub">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font></Label>
+      <Label layoutX="183.0" layoutY="70.0" text="Debes registrarte o iniciar sesión.">
+         <font>
+            <Font name="Berlin Sans FB" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnRegistrarse" layoutX="112.0" layoutY="126.0" mnemonicParsing="false" onAction="#pulsarRegistro" text="Registrarse">
+         <font>
+            <Font name="Berlin Sans FB" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnIniciar" layoutX="324.0" layoutY="126.0" mnemonicParsing="false" onAction="#pulsarIniciar" text="Iniciar Sesion">
+         <font>
+            <Font name="Berlin Sans FB" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

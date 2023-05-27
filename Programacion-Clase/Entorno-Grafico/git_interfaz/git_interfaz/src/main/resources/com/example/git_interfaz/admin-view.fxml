@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.git_interfaz.AdminController">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="606.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Juegos">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Ver" />
+                  <MenuItem mnemonicParsing="false" text="Añadir" />
+                  <MenuItem mnemonicParsing="false" text="Eliminar" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Socios">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Ver" />
+                  <MenuItem mnemonicParsing="false" text="Añadir" />
+                  <MenuItem mnemonicParsing="false" text="Eliminar" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Inventario">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Ver" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
