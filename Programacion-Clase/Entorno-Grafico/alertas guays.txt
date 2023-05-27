@@ -1,0 +1,43 @@
+import automoviles.automoviles.DTO.AutomovilDTO.Automovil
+import javafx.scene.control.Alert
+import javafx.scene.control.ButtonType
+import java.util.*
+
+class InsertarAutomovilService {
+    companion object{
+        private val automovilServiceDAO= AutomovilServiceDAO()
+        fun insertarAutomovil(automovil: Automovil){
+            val resultado = mostrarMensajeConfirmacion()
+            if (resultado?.get() == ButtonType.OK) {
+                if(automovilServiceDAO.insertarAutomovil(automovil)){
+                    mostrarMensajeInsercionExitosa()
+                }else{
+                    mostrarMensajeErrorInsercion()
+                }
+            }
+        }
+
+        private fun mostrarMensajeErrorInsercion() {
+            val error = Alert(Alert.AlertType.ERROR)
+            error.title = "Error en la inserción"
+            error.headerText = "No se pudo insertar el automóvil"
+            error.showAndWait()
+        }
+
+        private fun mostrarMensajeInsercionExitosa() {
+            val exito = Alert(Alert.AlertType.INFORMATION)
+            exito.title = "Inserción exitosa"
+            exito.headerText = "El automóvil se ha insertado correctamente"
+            exito.showAndWait()
+        }
+
+        private fun mostrarMensajeConfirmacion(): Optional<ButtonType>? {
+            val confirmacion = Alert(Alert.AlertType.CONFIRMATION)
+            confirmacion.title = "Confirmación de inserción"
+            confirmacion.headerText = "¿Estás seguro de que deseas insertar este automóvil?"
+
+            val resultado = confirmacion.showAndWait()
+            return resultado
+        }
+    }
+}

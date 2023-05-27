@@ -1,0 +1,74 @@
+import automoviles.automoviles.MainApplication
+import javafx.event.ActionEvent
+import javafx.fxml.FXML
+import javafx.fxml.FXMLLoader
+import javafx.scene.Scene
+import javafx.scene.control.Label
+import javafx.scene.control.MenuItem
+import javafx.scene.image.ImageView
+import javafx.stage.Stage
+
+class VistaPrincipalAutomovilController {
+
+    @FXML
+    lateinit var imagenPrincipal: ImageView
+
+    @FXML
+    lateinit var lblUsuario: Label
+
+    @FXML
+    lateinit var menuItemOpcion1: MenuItem
+
+    @FXML
+    lateinit var menuItemOpcion2: MenuItem
+
+    @FXML
+    lateinit var menuItemOpcion3: MenuItem
+
+
+
+    fun accederOperacionesCrud() {
+        val fxmlLoader = FXMLLoader(MainApplication::class.java.getResource("crud-view.fxml"))
+        val scene = Scene(fxmlLoader.load(), 640.0, 380.0)
+        val stage = Stage()
+        stage.scene = scene
+        stage.show()
+
+        val ventanaActual=menuItemOpcion1.parentPopup.ownerWindow as Stage
+        ventanaActual.close()
+
+    }
+
+    fun accederMostrarAutomovilPorRango(){
+        val fxmlLoader = FXMLLoader(MainApplication::class.java.getResource("rangoPrecio-view.fxml"))
+        val scene = Scene(fxmlLoader.load(), 640.0, 380.0)
+        val stage = Stage()
+        stage.scene = scene
+        stage.show()
+
+        val ventanaActual=menuItemOpcion2.parentPopup.ownerWindow as Stage
+        ventanaActual.close()
+    }
+
+    fun accederObtenerPorMarca() {
+        val fxmlLoader = FXMLLoader(MainApplication::class.java.getResource("automovilPorMarca-view.fxml"))
+        val scene = Scene(fxmlLoader.load(), 640.0, 380.0)
+        val stage = Stage()
+        stage.scene = scene
+        stage.show()
+
+        val ventanaActual=menuItemOpcion3.parentPopup.ownerWindow as Stage
+        ventanaActual.close()
+    }
+
+
+    fun accederInsercionFichero(actionEvent: ActionEvent) {
+
+    }
+
+    fun accederSerializar(actionEvent: ActionEvent) {
+
+    }
+
+
+}
